@@ -1,0 +1,471 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="images/padlock.png">
+    <link href="CSS/normalize.css" rel="stylesheet">
+    <link href="CSS/stylesheet.css" rel="stylesheet /">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap" rel="stylesheet">
+    <title>JMTS Group Project</title>
+</head>
+
+<body>
+    <div id="wrapper">
+	    <a id="top"></a>
+
+        <nav class="menu">
+            <ul id="mainNav"> <!-- was <ud> -->
+                <li class="active"><a href=#top>Home</a></li>
+                <li><a href=#security>Security Mechanisms</a></li>
+                <li><a href=#privacy>Privacy in Business</a></li>
+                <li><a href=#mitigations>Mitigations</a></li>
+                <li><a href=#references>References</a></li>
+            </ul>
+        </nav>
+ 
+        <header class="banner">
+
+            <h1>Cyber Security page.</h1>
+            <h2>A quick start guide for young people. </h2>
+        </header>
+
+        <main class="main">
+          <div class="instructions"> 
+
+                
+                    <h5> An introduction </h5>
+		<p>
+                    Cyber Security is important for everyone - however, teaching such an complex and ever-changing subject to children and young adults 
+		    can be challenging. This website aims to supplement this process by giving up-to-date information on a wide variety
+                    of issues relating to Cyber Security and the prevention of security breaches and in turn, malicious attacks.
+                    <br> These demographics are amongst the heaviest users of the internet; but generally have a lower level of understanding of 
+		    security risks and common malicious practices<a id="security"></a>. This means that younger people on the internet are massively
+                    at risk, and it is important to educate them on how to avoid and prevent security breaches.
+                </p>
+
+                <h5>Security Mechanisms</h5>
+
+                <p> 
+			
+		    The risk of cyber-attacks is at an all-time high, with major attacks taking place every day (<a href="https://cyware.com/cyber-security-news-articles">
+		    CyWare </a> is a good news page dedicated to recording cyber-attacks). This is a threat that everyone faces, and many people may
+		    have unknowingly lost their data to cyber-attack (<a href="https://haveibeenpwned.com/"> Have I Been Pwned?</a> - Useful website 
+		    where you can check out if your email has been in a data breach! You may be surprised to see the results...) However, security mechanisms
+   		    to combat cyber threats are becoming commonplace in the working world today. While many people still don't have an in-depth
+		    understanding of technology, it is paramount for any business or organisation to understand how to protect itself. Many different 
+		    security mechanisms can be utilised, and we will be highlighting and explaining a few of the most common ones on this page.  
+			
+                </p>
+
+                <ol class="cards">
+                    <li class="card">
+                        <div class="card-content"> 
+
+                            <h4>Access Control</h4>
+                            <img src="images/authentication.jpg" alt=" Picture of fingerprint " />
+				
+				<h5>Authentication</h5> 
+
+                            <p>
+                                The National Cyber Security Centre (NCSC) describes authentication as the process of determining if someone is who they 
+				claim to be. For a real-world example, this is akin to checking identification or a signature. A key security measure, 
+				authentication can stop intruders from accessing important information under false pretences. A common way of utilising this
+				is through Two-Factor Authentication (2FA), which is where you must provide evidence of identification through two methods of verification, 
+				normally through either an app (e.g. Google Authenticator), or through a code delivered by text. 
+                            </p>
+				<h5> Authorisation </h5>
+				
+				<p> Authorisation is a similar security measure to authentication, with the difference being this can be used to access levels of privilege 
+				    for clients or users. For example, administrative staff in a company may be able to write and read data, but clients would not have the 
+				    authorisation to write data - only to read it. Again, this helps to stop intruders as well as protects the data. </p>
+                        </div>
+
+
+                        <li class="card">
+                            <div class="card-content">
+
+				    <h4>Securing Devices</h4>
+                                <img src="images/password.jpg" alt="iPhone password " />
+				    
+				    <h5>Passwords</h5> 
+
+                               <p> Being perhaps the most well-known security mechanism, passwords are used by nearly eveyone in their day-to-day lives. 
+				   While it is just a method of authentication, a password uses encryption to hide a specific phrase.  It is of the 
+				   utmost importance for passwords to be changed routinely, to prevent unwanted access to business systems 
+				   and personal data. The ideal password should have a mix of letters in different cases, numbers and symbols 
+				   (the NCSC recommends using three random words together) - which would be unlikely to be guessed by a human or by 
+				   hacking software. Two well-known softwares are <a href="https://www.aircrack-ng.org/"> Aircrack-ng </a> and 
+				   <a href="https://en.wikipedia.org/wiki/John_the_Ripper"> John the Ripper. </a>
+			 	   These two hacking tools are easy to find and install and have a lot of relevant information available online so that 
+				   nearly anyone who wants to learn to use them for illicit purposes can. Below is a photo of the most used passwords in 
+				   the UK according to the NCSC - as you can see, some of these would be incredibly easy to guess within a few attempts. 
+				    </p>
+				    
+				    <img src="images/Passwords2.jpeg" alt="Image showing most commonly used passwords" /> The most commonly used passwords. <br>
+                        <small> Screenshot &copy; Author 2022</small>
+                            </div>
+
+                        </li>
+
+
+                        <li class="card">
+                            <div class="card-content">
+
+                                <h4>Security Software</h4>
+                                <img src="images/virus.jpg" alt="" />
+				    <h5>Anti-Virus</h5>
+
+                                <p>
+                                    Anti-Virus (AV) software is used to stop malware from infecting a computer system. These days, this software is 
+				    built into many operating systems and devices - for example, the App Store for an iPhone will automatically check
+				    downloaded software before you get the apps, and it works similarly with Android phones too. Even Windows and MacOS
+				    have built-in AV software - however it may still be beneficial to download third-party software to be safer (like
+				    <a href="https://www.malwarebytes.com/">Malwarebytes</a>). 
+					
+				    However there should never be more than one instance of Anti-Virus software running on a system at any time, due to 
+				    them conflicting with one another, using increased system resources, giving false virus alerts and leaving the 
+				    system vulnerable.
+                                </p>
+				    
+				    <h5>Security Focused Operating Systems</h5>
+				    
+				    <p>
+					An alternative to using this software is to just use an operating system that has been designed with security in
+					mind. Many of these are Linux-based and have been created by prioritising privacy, with some of them making 
+					it completely impossible for any malware to find a user's IP address. However, this may not always be necessary. 
+					Many countries (including the US, Canada, UK, Germany & Netherlands) have created a certification for operating 
+					systems to be trusted called the <a href="https://commoncriteriaportal.org/">Common Criteria</a>. The most used operating systems (including Windows & Mac) are 
+					certified as trusted.
+                            </div>
+
+                            <li class="card">
+                                <div class="card-content">
+
+                                    <h4>Encryptions</h4>
+                                    <img src="images/Encryption.jpg" alt="" />
+
+                                    <p>
+                                        A more technical security measure than the aforementioned ones. The Cambridge Dictionary defines this as 
+					'The process of changing electronic information or signals into a secret code that people cannot understand or 
+					use without special equipment'. A key mechanism for safely transferring data, encryption is widely used in 
+					messaging apps, for example, Signal or WhatsApp. 	<a id="privacy"></a>
+                                    </p>
+                                </div>
+
+                                <li class="card">
+                                    <div class="card-content">
+
+                                        <h4>Firewalls</h4>
+                                        <img src="images/firewall.jpg" alt="" />
+
+                                        <p>
+                                            The NCSC describes a firewall as a hardware or software which uses a rule set to control network traffic to prevent unauthorised access 
+					    to or from a network. Essentially, a firewall acts as a barrier protecting a network from anything suspicious entering.
+                                        </p>
+                                    </div>
+
+                                </li>
+
+                                <li class="card">
+                                    <div class="card-content">
+
+                                        <h4>IDS</h4>
+                                        <img src="images/IDS.png" alt="" />
+
+                                        <p>
+                                            An Intrusion Detection System, or more commonly an IDS, is a monitoring device that detects threats and generates alerts. While is this 
+					    like a firewall, rather than just permitting or blocking network connections, an IDS will signal an alarm. This would then go to notify 
+					   someone to investigate and respond to an incident.
+                                        </p>
+                                    </div>
+
+                                </li>
+
+                </ol>
+            </div>
+
+            <article class="art">
+
+                <header class="post">
+			
+              <h5>  Issues around privacy in business information systems. </h5>
+	
+                <p>   
+                Cybercrime is an umbrella term used to refer to the use of computers or information technology being used to 
+                commit unlawful acts to disrupt, steal or ransom. 'Cyber-dependant' crimes are crimes that can 
+                only be committed through the utilisation of computing technologies that target other computing systems, 
+                whereas 'Cyber-enabled' crimes are instances where ‘traditional’ crimes have gained a wider reach or increased 
+                scale due to computers making them more effective and far easier to carry out. 
+                </p>
+			
+		<br>
+		
+		<p>
+		
+		They are targeted, malicious attacks by an individual or organization intending to breach the information system of another 
+		person, network or organisation. Cyberattacks are committed typically for financial gain, political activism, or personal reasons.
+		There are various methods to launch a cyberattack like malware, ransomware, brute-force attacks, denial of service attacks, etc.
+		Cyberattacks are dangerous because they can expose bank information, medical records, or personal information. 
+		Many people have had their identities stolen due to cyberattacks on big corporations. 
+		Big corporations are not the only victims, many people are exposed to malware attacks just from clicking on the 
+		wrong things online. The most common attack against inexperienced people suffering from malware is cyber extortion. 
+		Cyber extortion is when hackers hold data, computer systems, or sensitive information hostage until payment is made.
+		
+		Over recent years, the frequency of cyber-attacks has been increasing steadily, with 2021 being a record year 
+                for the number of cyber-attacks reported, and with no signs of slowing down, cyber security is 
+                one of – if not the most integral part of business infrastructure. The increase in users of high-powered mobile 
+                devices has contributed to the growth of cyber security risk - because everyday people are more 
+                susceptible to malicious behaviour and hackers are able to reproduce attacks that were previously limited to needing a computer. 
+	
+		</p>
+			
+		<br>
+			
+                <p>
+			
+                There is a myriad of possible attacks targeting secure data in business, the ones we have mentioned already are: 
+			
+                </p>
+			
+		<br>
+                
+                <h5> Brute force attacks </h5> 
+			
+		<p>	
+		Brute force attacks make up about 5% of recorded cyber-attacks and are performed by utilising a program that is 
+                effectively ‘guessing’ the username and password needed to access a system as many times as it takes to guess correctly. 
+                Brute force attacks come in many forms – one type is called a ‘dictionary attack’ and guesses based on possible known phrases. 
+                Brute force attacks are simple but have a high success rate. To combat brute force attacks, usernames and passwords 
+                should be long and complex and not utilise information that is personal to the user or company.
+                </p>
+			
+		<br>
+                
+		<h5> Malware </h5> 
+		    
+		<p>
+		If left unfound, malware can be catastrophic to the integrity of a businesses intellectual property and public image. 
+                Malware comes in many different forms, with some of the more popular being; Ransomware – used to encrypt business data and 
+                charge money to return it, and Cryptocurrency ‘Mining’ software – which steals computing power to 
+                mine virtual currency. However the most common by far is a computer virus, used to delete, alter and encrypt business’ 
+                files and data, a virus spreads by infecting files and then making copies of itself on systems to spread itself 
+                across a network with the ultimate intention to disrupt and disable. They can be first encountered on a business system 
+                by employees using compromised flash storage or opening emails that have originated from outside of the secure network infrastructure. 
+                To prevent the acquisition and spread of malicious files, all software used should be kept up-to-date such as your 
+                operating systems, browsers and anti-virus. Businesses should also control what USB devices can be connected to computers and 
+                firewalls should always be switched on.
+                </p>
+			
+		<br>
+			
+                <h5> DDoS attacks </h5>  
+			
+		<p>	
+		DDoS or Distributed Denial of Service attacks are attacks that primarily affect businesses as it’s a technique used to overload 
+                servers and bring down services and websites, if a DDoS attack has been successful, access to a business website will be 
+                impossible for users until the issue is resolved. For an attack to be carried out, 'botnets' (a network of infected computers 
+                unbeknownst to the users) or programs are used to flood servers with massive traffic so they are unable to cope and will 
+                crash under the load, bringing down the website. These attacks are effective and are often used to mask another concurrent 
+                and more serious attack. To mitigate DDoS attacks the main method is to have a large enough bandwidth and server capacity 
+                so an attack is absorbed and cannot provide enough requests to bring down your website, but you can also employ a WAF or 
+                Web Application Firewall that guards you against commonly found web exploits. 
+                </p>
+			
+		<br>
+			
+                <p>
+               
+		Cyber attacks come in multiple forms but these three are some of the more commonly found for businesses and should always be 
+                a consideration for every business development as the impact of any attack can be incredibly costly to rectify, not just on 
+                a financial level but on a reputational one as well. Companies worldwide suffer data breaches regularly, 
+                with Comcast, Facebook and LinkedIN suffering the largerst breaches of 2021, along with many other organisations, 
+		proving clearly why cyber security is such an important aspect of business planning and development.
+               
+		</p>
+			
+		<br>
+			
+			<h5> Real world examples </h5>
+				
+		<p>	
+			
+		In May 2021, the Colonial Pipeline company was hit by a ransomware attack. Colonial Pipeline transports 45%-50% of the fuel 
+		on the eastern coast of the United States. Hackers gained access into the company’s networks through a virtual private network (VPN) account, 
+		which allowed employees to work from home. The account was inactive, but the username and password had been sold through the dark web. 
+		The hackers were affiliated with a Russian cybercrime group known as DarkSide. The hackers were paid 4.4 million USD after a five-day 
+		shut down of the pipeline.
+		
+		</p>
+			
+		<p>
+			
+		In 2016, Russian computer hackers infiltrated the Democratic National Committee computer network. Two separate espionage agents 
+		infiltrated the systems at different times and different methods. The first agent implanted a backdoor using a hidden PowerShell 
+		script and launched malicious code at various times. The second agent employed malware, which transmitted files, allowed screenshots, 
+		log keystrokes, and gather any data needed by the hacker. The second agent then used X-Tunnel malware to exfiltrate stolen data from the 
+		compromised computers within the DNC.
+			
+		</p>
+			
+		<p>
+
+	 	In February 2015, a ransomware ‘Trojan Horse’ was released to attack gamers around Europe. The ransomware targetted
+		save data, player profiles, custom maps, <a id="mitigations"></a>and game mods stored on the victim’s hard drive. It affected predominantly 40 games, including 
+		the Call of Duty series, World of Warcraft, Minecraft, World of Tanks, Starcraft, and Dragon Age. The victim would then be prompted 
+		to pay a ransom of $500 worth of Bitcoin in order to obtain the decryption key.
+			
+		</p>
+			
+                    <h5> Mitigation</h5>
+			
+		<p>
+                    An effective and near worry-free method of mitigation is the act of Security as a service. Security as a service (SECaas) is the 
+		    term used when an outside provider deals with the security of an organisation's computing infrastructure. This generally involves
+                    the security company monitoring the system and responding to or preventing any threats that are likely to occur as well as strategies 
+		    for things like data loss prevention. Utilizing a SECaas provider can save an organisation time and resources
+                    that could be better spent elsewhere in the business. It also negates the need to pay for staff to be routinely trained. 
+		    An example of one of the top SECaas companies is McAfee which has been around for a long time and is one of the most trusted names 
+		    in the industry.
+		</p>	
+			
+                </header>
+
+                <br>
+
+                
+                    <h5> Prevention</h5>
+		<p>
+                    Effective techniques for prevention include: developing effective security policies to make sure everyone knows the rules to adhere 
+		    to, making sure that all staff or appropriate users are given relevant security awareness training which will instill the
+                    policies and procedures of the organisation into the minds of the staff and ensure that they are followed and implemented at all 
+		    times. It is very importantm if an organisation is responsible for its own security, that it has reliable
+                    security software installed and monitored. The most effective security software will be simple to use and include a straightforward
+		    user interface that is not confusing and easy to get to grips with. It will allow the organisation
+                    to monitor and deploy various security functions to the users and systems within the organizations infrastructure. 
+		    It should also be intuitive enough that staff using it can accomplish their objectives efficiently and don't have to
+                    spend too much time that could be used elsewhere, figuring out how to work the software.
+                </p>
+
+               
+                    <h5> Detection</h5>
+
+		<p>
+		    
+                    An Anti-virus that includes all the necessary protections for the specific needs of the organization, such as anti-spyware and 
+	            malware, is one of the most important tools to detect any potential threats that an organization can encounter. Restricting
+                    access to relevant users only by implementing passwords and log-in systems for individuals with varying degrees of permission to 
+	            interact with data. Using an access control matrix to assess the eligibility of users is a very effective
+                    method of monitoring who can have access to certain data and information, making it easier to deduce who could have sabotaged 
+	            or misused their position, whether intentionally or not. If it was an accidental event then perhaps more
+                    training can be provided and if it was a deliberate act then disciplinary action will be easier to take.
+
+                </p>
+
+                
+                    <h5> Remediation </h5>
+
+		<p>
+		    
+                    The act of reacting to the breach once found and limiting the amount of damage that it can do to the organisation. The cause then 
+	            needs to be identified and prevented next time. A proper plan should be in place that deals with the most serious threats
+                    and specifies appropriate countermeasures. Some important elements of remediation are: creating an up to date risk assessment, 
+	            employing a suitable monitoring process to keep an eye on the comings and goings of data, making sure that staff
+                    have relevant training and practice to keep themselves from panicking if malicious events occur, consider security as a service to 
+	            outsource the protection and free up employees time to focus on other things, potentially increasing production output.
+
+                </p>
+
+
+                    <h5> More advice</h5>
+
+                <p>
+		    
+                    Many issues can be of concern to a business regarding privacy and it is important to have a good understanding of 
+	            what some of the main issues can be as well as ways to mitigate the chances of vulnerabilities, exploits and malicious attacks.
+                    If confidential information is kept about individuals by a business, it is essential that the data is kept secure and that access 
+	            to the information is moderated appropriately according to the Data Protection Act 2018. At a basic level,
+                    this can be in the form of passwords and login details. Permission can also be granted to relevant users based on an Access Control
+	            matrix. This is a method of correctly distributing necessary permissions that makes it easier to denote
+                    who is granted which level of access to data. There are many reasons that data/info might be attempted to be accessed or collected, 
+	            it could be for financial gain if the individual involved wanted to sell information or upload malicious
+                    software onto a system. The company's regulations for security must be followed by all employees as it is 
+	            the responsibility of everyone working there once properly trained and instructed to help prevent breaches.
+
+                </p>
+
+                <br>
+
+                <p>
+                    The following videos give some more information on the importance of security and privacy.
+                </p>
+
+                    <div class="video-container">
+                        <iframe width="550" height="300" src="https://www.youtube.com/embed/3YIPQrEWOeY" title="YouTube video player" allow="accelerometer; autoplay; 
+			 clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+
+                    <div class="video-container2">
+                        <iframe width="550" height="300" src="https://www.youtube.com/embed/KDr915RT4Mo" title="YouTube video player" allow="accelerometer; autoplay; 
+			clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+
+            </article>
+
+            <article>
+                
+                    <br>
+                    <h5> References and further reading: </h5>
+                    <a id="references"></a>
+
+                    <ol>
+			    <li><a href="https://dictionary.cambridge.org/dictionary/english/encryption"> Cambridge Dictionary </a> - Dictionary. </li>
+			    <li><a href="https://www.checkpoint.com/cyber-hub/network-security/what-is-an-intrusion-detection-system-ids/"> Checkpoint </a> - Intrusion Detection Systems. </li>
+			    <li><a href="https://www.commoncriteriaportal.org/"> Common Criteria </a> - Operating System Certification. </li>
+                            <li><a href="https://cyware.com/cyber-security-news-articles"> CyWare Cyber Security News </a> - Daily news updates on Cyber Security Attacks. </li>
+			    <li><a href="https://www.gov.uk/data-protection"> Data Protection Act </a> - Legal policy safeguarding user data. </li>
+			    <li><a href="https://economictimes.indiatimes.com/definition/authorization"> Economic Times </a> - Business focused daily newspaper.  </li>
+			    <li><a href="https://haveibeenpwned.com/"> Have I Been Pwned? </a> - Checking for personal data breaches. </li>
+                            <li><a href="https://www.ncsc.gov.uk/"> NCSC </a> - UK National Cyber Security Centre </li>
+                            <li><a href="https://niccs.cisa.gov/about-niccs/cybersecurity-glossary"> NICCS </a> - National Initiative for Cyber-Security Careers and Studies. </li>
+			    <li><a href="https://www.vecteezy.com/"> Vecteezy </a> - Free to use image source. </li>
+                            <li><a href="https://www.youtube.com"> Youtube </a> - Video hosting platform. </li>  
+                    </ol>
+
+            </article>
+            <p>
+                <small>
+			All images used in this webpage are free to use under the <a href="https://creativecommons.org/licenses/"> Creative Commons license. </a>
+		</small>
+
+            </p>
+
+        </main>
+
+        <footer><a href="mailto:j.hutson2@uni.brighton.ac.uk">Email the team.</a> <a href="https://github.com/paellapapi/groupproject">GitHub Repository with source code. </a> <small>&copy; 2022, Authors. </small>
+            <div class="footerimg">
+
+                <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fpaellapapi.github.io%2Fgroupproject%2F">
+                    <img src="https://www.w3.org/html/logo/badge/html5-badge-h-css3-semantics.png" width="88" height="31" alt="HTML5 proof of Validation / Styling, and Semantics" title="Link to HTML5 Validation">
+                </a>
+
+               
+    <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fpaellapapi.github.io%2Fgroupproject%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
+        <img style="border:0;width:88px;height:31px"
+            src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+            alt="Valid CSS!" />
+    </a>
+
+     
+
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
